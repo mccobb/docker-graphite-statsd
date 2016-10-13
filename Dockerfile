@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.9.18
-MAINTAINER Nathan Hopkins <natehop@gmail.com>
+MAINTAINER ReverbNation <devops@reverbnation.com>
 
 #RUN echo deb http://archive.ubuntu.com/ubuntu $(lsb_release -cs) main universe > /etc/apt/sources.list.d/universe.list
 RUN apt-get -y update\

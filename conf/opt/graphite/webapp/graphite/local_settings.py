@@ -10,7 +10,7 @@
 # install. This key is used for salting of hashes used in auth tokens,
 # CRSF middleware, cookie storage, etc. This should be set identically among
 # instances if used behind a load balancer.
-#SECRET_KEY = 'UNSAFE_DEFAULT'
+#SECRET_KEY = 'EzutV7NcHXN8%xVY'
 
 # In Django 1.5+ set this to the list of hosts your graphite instances is
 # accessible as. See:
@@ -20,7 +20,7 @@
 # Set your local timezone (Django's default is America/Chicago)
 # If your graphs appear to be offset by a couple hours then this probably
 # needs to be explicitly set to your local timezone.
-#TIME_ZONE = 'America/Los_Angeles'
+TIME_ZONE = 'America/New_York'
 
 # Override this to provide documentation specific to your Graphite deployment
 #DOCUMENTATION_URL = "http://graphite.readthedocs.org/"
