@@ -15,6 +15,7 @@ This image will have you running & collecting stats in just a few minutes.
 ## Quick Start
 
 ```sh
+docker build -t graphite-statsd .
 docker run -d\
  --name graphite\
  --restart=always\
@@ -23,7 +24,7 @@ docker run -d\
  -p 2023-2024:2023-2024\
  -p 8125:8125/udp\
  -p 8126:8126\
- hopsoft/graphite-statsd
+ graphite-statsd
 ```
 
 This starts a Docker container named: **graphite**
